@@ -1,5 +1,5 @@
 # Project-1---Simple-Website
-The task is to provision a web server with automation and publish a website onto it.
+The task is to provision a web server in a vagrant box with automation and publish a website onto it.
 
 
 ### Architecture
@@ -13,3 +13,9 @@ The task is to provision a web server with automation and publish a website onto
 3. Research and choose a web server and install it on the virtual machine
 4. Configure the web server to serve a static website (e.g. some basic HTML)
 5. Make sure you can access the website in your web browser
+
+
+### Requirements
+
+- Install [Vagrant](https://developer.hashicorp.com/vagrant/downloads) or `run sh install-vagrant.sh`
+- 
