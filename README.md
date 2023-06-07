@@ -18,4 +18,3 @@ The task is to provision a web server in a vagrant box with automation and publi
 ### Requirements
 
 - Install [Vagrant](https://developer.hashicorp.com/vagrant/downloads) or `run sh install-vagrant.sh`
-- 
