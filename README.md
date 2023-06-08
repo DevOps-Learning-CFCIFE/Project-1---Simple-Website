@@ -1,20 +1,22 @@
-# Project-1---Simple-Website
-The task is to provision a web server in a vagrant box with automation and publish a website onto it.
+Here's a reviewed version of your README content:
 
+# Project-1---Simple-Website
+The task of this project is to provision a web server in a Vagrant box with automation and deploy a website onto it.
 
 ### Architecture
+The project architecture involves using a shell script to run the Vagrant installation from a Vagrantfile. The Vagrantfile, in turn, executes an Ansible playbook responsible for the configuration management of the web server.
 
-![Architectural diagram to be implemented for this project](./Architecture.jpg)
+## Requirements
+To set up and test the project, make sure you have the following requirements fulfilled:
 
-### Implementation Steps
+- Install [Vagrant](https://developer.hashicorp.com/vagrant/downloads) and [VirtualBox](https://www.virtualbox.org/wiki/Downloads) on your local machine.
+- Clone this repository and navigate to the project directory.
+- Run the `start-vagrant.sh` script to initiate the Vagrant setup process.
+- Once the virtual machine (VM) is up and running, you can access the website by opening a web browser and entering the IP address of the VM.
+- To test the deployment locally, open a web browser on your local machine and enter the IP address `127.0.0.1:8080`. Vagrant forwards port 8080 on your machine to port 80 on the VM, where Apache is running.
+- Verify that the website is accessible and displaying the content of your `index.html` file.
+- If you encounter any issues with the Vagrant box, you can troubleshoot by running `vagrant ssh` from the directory where the `.vagrant` files are located.
 
-1. Create a Git repository to store your work
-2. Create (provision) a virtual machine (VirtualBox, Vagrant, etc.)
-3. Research and choose a web server and install it on the virtual machine
-4. Configure the web server to serve a static website (e.g. some basic HTML)
-5. Make sure you can access the website in your web browser
+Feel free to customize the website content and structure according to your needs.
 
-
-### Requirements
-
-- Install [Vagrant](https://developer.hashicorp.com/vagrant/downloads) or `run sh install-vagrant.sh`
+If you have any questions or need further assistance, please don't hesitate to ask.
